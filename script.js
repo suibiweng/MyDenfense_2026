@@ -112,22 +112,18 @@ function escapeHTML(str) {
 function highlight(text, query) {
   const safe = escapeHTML(text);
   if (!query) return safe;
-  const escapedQuery = query.replace(/[.*+?^${}()|[\]\]/g, '\$&');
+  const escapedQuery = query.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
   return safe.replace(new RegExp(`(${escapedQuery})`, 'ig'), '<mark>$1</mark>');
 }
 
 function parseVTT(text) {
   return text
-    .replace(/^WEBVTT.*
-/i, '')
-    .split(/
-\s*
-/)
+    .replace(/^WEBVTT.*\n/i, '')
+    .split(/\n\s*\n/)
     .map(block => block.trim())
     .filter(Boolean)
     .map(block => {
-      const lines = block.split('
-').map(line => line.trim()).filter(Boolean);
+      const lines = block.split('\n').map(line => line.trim()).filter(Boolean);
       const timeLineIndex = lines.findIndex(line => line.includes('-->'));
       if (timeLineIndex === -1) return null;
       const [startRaw] = lines[timeLineIndex].split('-->').map(v => v.trim());
@@ -205,9 +201,7 @@ async function loadTranscript() {
 }
 
 function parseChat(text) {
-  return text.split(/
-?
-/).map(line => line.trim()).filter(Boolean).map(line => {
+  return text.split(/\n?\n/).map(line => line.trim()).filter(Boolean).map(line => {
     const parts = line.split('	');
     if (parts.length >= 3) return { time: parts[0], speaker: parts[1].replace(/:$/, ''), message: parts.slice(2).join(' ') };
     const match = line.match(/^(\d\d:\d\d:\d\d)\s+([^:]+):\s+(.*)$/);
