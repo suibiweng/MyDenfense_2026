@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Doctoral Dissertation Defense Recording</title>
+  <meta name="description" content="Static GitHub Pages recording viewer with YouTube embed, transcript, and chat." />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="topbar">
+    <a class="skip" href="#main">Skip to Main Content</a>
+    <div class="brand">
+      <div class="logo-mark">z</div>
+      <div>
+        <div class="brand-title">Video Conferencing</div>
+        <div class="brand-subtitle">Cloud Recording</div>
+      </div>
+    </div>
+    <nav class="nav-actions" aria-label="Page links">
+      <a href="#viewer">RECORDING</a>
+      <a href="#transcriptPanel">TRANSCRIPT</a>
+      <a href="#details">DETAILS</a>
+    </nav>
+  </header>
+
+  <main id="main" class="page-shell">
+    <section class="recording-header">
+      <div>
+        <p class="eyebrow">Personal Meeting Recording</p>
+        <h1 id="recordingTitle">Doctoral Dissertation Defense Recording</h1>
+        <p class="meta" id="recordingMeta">Suibi Che-Chuan Weng · April 22, 2026 · YouTube video, transcript, and meeting chat</p>
+      </div>
+      <div class="header-actions">
+        <a id="openYouTube" class="button primary" href="#" target="_blank" rel="noopener">Open on YouTube</a>
+        <a id="downloadTranscript" class="button secondary" href="assets/transcript.vtt" download>Download transcript</a>
+        <a id="downloadCaptions" class="button secondary" href="assets/captions.vtt" download>Download captions</a>
+        <a id="downloadChat" class="button secondary" href="assets/chat.txt" download>Download chat</a>
+      </div>
+    </section>
+
+    <section id="viewer" class="viewer-card" aria-label="Recording viewer">
+      <div class="player-column">
+        <div class="video-frame">
+          <div id="youtubePlayer" class="youtube-player" aria-label="YouTube recording player"></div>
+          <div id="missingMedia" class="missing-media">
+            <img src="assets/poster.svg" alt="Recording placeholder" />
+            <div class="missing-copy">
+              <h2>YouTube video not connected yet</h2>
+              <p>Upload your Zoom recording to YouTube as <strong>Unlisted</strong>, then paste the video ID into <code>script.js</code>.</p>
+              <p>The transcript, captions, and chat are already included in this page.</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="timeline-tools">
+          <button class="tool-button" data-jump="-10">⟲ 10s</button>
+          <button class="tool-button" data-jump="10">10s ⟳</button>
+          <button id="copyLink" class="tool-button">Copy page link</button>
+          <button id="toggleSidePanel" class="tool-button active">Transcript / Chat</button>
+        </div>
+      </div>
+
+      <aside id="transcriptPanel" class="side-panel" aria-label="Transcript and chat panel">
+        <div class="panel-header">
+          <div>
+            <h2 id="panelTitle">Transcript</h2>
+            <span id="transcriptStatus">Loading VTT</span>
+          </div>
+          <div class="tab-buttons" role="tablist" aria-label="Side panel tabs">
+            <button id="tabTranscript" class="tab-button active" type="button">Transcript</button>
+            <button id="tabChat" class="tab-button" type="button">Chat</button>
+          </div>
+        </div>
+
+        <div id="transcriptTools" class="panel-tools">
+          <input id="transcriptSearch" type="search" placeholder="Search transcript…" aria-label="Search transcript" />
+        </div>
+
+        <div id="transcriptList" class="transcript-list">
+          <p class="placeholder">Loading transcript…</p>
+        </div>
+
+        <div id="chatList" class="chat-list" hidden>
+          <p class="placeholder">Loading chat…</p>
+        </div>
+      </aside>
+    </section>
+
+    <section id="details" class="details-grid">
+      <article class="detail-card">
+        <h2>Recording Details</h2>
+        <dl>
+          <div><dt>Topic</dt><dd id="detailTopic">Doctoral Dissertation Defense</dd></div>
+          <div><dt>Date</dt><dd id="detailDate">April 22, 2026</dd></div>
+          <div><dt>Host</dt><dd id="detailHost">Suibi Che-Chuan Weng</dd></div>
+          <div><dt>Video</dt><dd>Embedded from YouTube. Recommended setting: <strong>Unlisted</strong>.</dd></div>
+          <div><dt>Files</dt><dd>Transcript, captions, and chat are hosted in this GitHub Pages folder.</dd></div>
+        </dl>
+      </article>
+      <article class="detail-card">
+        <h2>How to update</h2>
+        <ol>
+          <li>Upload the Zoom MP4 to YouTube.</li>
+          <li>Set visibility to <strong>Unlisted</strong> if you want a semi-private link.</li>
+          <li>Copy the YouTube video ID.</li>
+          <li>Open <code>script.js</code> and replace <code>PASTE_YOUR_YOUTUBE_VIDEO_ID_HERE</code>.</li>
+          <li>Push this folder to GitHub and enable GitHub Pages.</li>
+        </ol>
+      </article>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div>© Recording page hosted with GitHub Pages</div>
+    <div class="footer-links">
+      <a href="#viewer">Recording</a>
+      <a href="assets/transcript.vtt">Transcript</a>
+      <a href="assets/captions.vtt">Captions</a>
+      <a href="assets/chat.txt">Chat</a>
+    </div>
+  </footer>
+
+  <script src="https://www.youtube.com/iframe_api"></script>
+  <script src="script.js"></script>
+</body>
+</html>

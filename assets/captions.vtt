@@ -1,0 +1,1370 @@
+WEBVTT
+
+00:00:00.000 --> 00:00:01.000
+Uh… This one? Yeah, this one. Okay, cool.
+
+00:00:01.000 --> 00:00:08.000
+Okay, is Lm. You can? say something, or I just dot.
+
+00:00:08.000 --> 00:00:24.000
+Okay, cool. Hello, everyone. Welcome to my doctoral dissertation defense, and sorry, let me move my mouse. If I cannot find my mouse, let me know where the mouse is. Yeah.
+
+00:00:24.000 --> 00:00:35.000
+Okay, so these are my committee. 2 of them are sitting in the spotlight, and some of them are online now.
+
+00:00:35.000 --> 00:00:52.000
+Okay, my name is Suibuang Wang, and you can call me Sui Bi. I got my CS degree at Datong University in 2012, and then later I got my interactional design master in Taipei Tech in 2014. Now I'm in Atlas.
+
+00:00:52.000 --> 00:01:03.000
+Yay. So, before we jump into today's topic, I want to talk about how I get in here. Yeah, not here, the topic, okay.
+
+00:01:03.000 --> 00:01:21.000
+So, that's from the beginning. So, uh, mixed reality has a long history in 1968 events settler introduced one of the earliest headset among display, which is the foundation of the mixed reality. Oh, sorry, the virtual reality.
+
+00:01:21.000 --> 00:01:36.000
+And throughout 1970 and 1980, VR continues to develop in research lab and simulation system. In 1990, the Boeing company introduced the concept of argument reality.
+
+00:01:36.000 --> 00:01:46.000
+In 1994, Paul Milligram and Fumio Kishino formalized the mixed reality as a part of spectrum between real and virtual world.
+
+00:01:46.000 --> 00:02:03.000
+Then, in the 2010s, the device like Oculog Rift or HTC Vive, those kind of commercialized system been introduced to the world. And that's when I step into the field.
+
+00:02:03.000 --> 00:02:18.000
+Me in 2014 and 13, uh, I was in Interactional Design, uh, that there was a workshop which is hosted by Alan and Mark during that time, and we were making, uh.
+
+00:02:18.000 --> 00:02:42.000
+Installation is like using Vuforia marker, and you can see the ghost playing a miniature playground, something like that. And then… That's inspired my master thesis is like a virtual object and tangible box, and it will react those virtual soldier, something like that, yeah. So you can see, oh, it's moving around.
+
+00:02:42.000 --> 00:03:00.000
+However, during that time, I really didn't… step into, like, VR headset because it's so expensive, and it's not really impressive, because you can only, like, sing around, and you cannot walking or interactive with virtual content.
+
+00:03:00.000 --> 00:03:10.000
+Around the same time, uh, I started using one really, uh, interesting device, which is HTC Vite.
+
+00:03:10.000 --> 00:03:26.000
+The very first time I try it, I was surprised that it's a really interesting experience, because that's the first VR that I can walking around, interactive with the virtual content, and with the avatar.
+
+00:03:26.000 --> 00:03:41.000
+And it felt, uh, it kind of led me in… open my imagination of the future of computing, and more importantly, I feel like I can reach out something like previously I cannot reachable. So that's the first time I'm using.
+
+00:03:41.000 --> 00:04:04.000
+Uh, HTC Vi, I was so surprised. And then, after I started working on many devices, so before I joined the program, I was an engineer, I was working on a lot of industry devices and commercial devices, like MRAR, XR, and installations. And also, I am a teacher.
+
+00:04:04.000 --> 00:04:09.000
+I teach people how to make their own immersive experience.
+
+00:04:09.000 --> 00:04:25.000
+And also, I'm an artist. I'm working with other artists, working in theater, working in the museum to help them how to use technology, how to use VR to express their, um.
+
+00:04:25.000 --> 00:04:46.000
+They are their thoughts. So, however, I didn't choose the path that my colleague did, because they opened the studio and making a lot of money. I can do here as a PhD student, and you can see these 3 projects actually.
+
+00:04:46.000 --> 00:05:03.000
+happen in this floor. So in here, um… So actually, this room is really has a special meaning for me. So you can see these two projects. The tape is still there.
+
+00:05:03.000 --> 00:05:10.000
+But okay, back to the presentations. When I start my Phd. In Cu Boulder.
+
+00:05:10.000 --> 00:05:19.000
+a divisor and other colleague, they were keeping asking one question is like, what is your research question?
+
+00:05:19.000 --> 00:05:29.000
+To be honest. I still doing the same thing. So in that time, I honestly say I didn't know, okay?
+
+00:05:29.000 --> 00:05:39.000
+And then, the second turning point is here. Then in 2022, maybe 23, one day I walk into the Acme lab.
+
+00:05:39.000 --> 00:05:48.000
+And my colleague Torin. Um, if… in case you don't know whose touring is, he's sitting over there.
+
+00:05:48.000 --> 00:05:57.000
+He was doing like his triple Phd. And taking like 10 classes in one semester or something like that.
+
+00:05:57.000 --> 00:06:04.000
+Tori asked me one thing. One thing is, have you tried Chat Gpt?
+
+00:06:04.000 --> 00:06:19.000
+And it's it's really amazing. At the first, I would kind of skeptical with this kind of system, because as an engineer, I think it's not reliable. And also, I have my pride. Like, I am an engineer, there's some chatbot.
+
+00:06:19.000 --> 00:06:26.000
+She didn't take over me, right? But when I try it, I toss my pride right away.
+
+00:06:26.000 --> 00:06:32.000
+I've become fascinated not only because it could help the generating writing.
+
+00:06:32.000 --> 00:06:52.000
+coding and visual assess like this image, because… and it… Provide the same feeling that the first time I wear the VR headset, uh, HTC Vibe VR headset. I feel like I can reach out something like previously, I cannot reach a bone.
+
+00:06:52.000 --> 00:06:58.000
+So, that's backing to reflecting what I care about as a researcher.
+
+00:06:58.000 --> 00:07:13.000
+Before I was, uh, before I am a researcher, I am an engineer. I care about building systems that are efficient and reliable. As a teacher, I care about people, how to make idea understandable, collaborate.
+
+00:07:13.000 --> 00:07:27.000
+Accessible and meaningful to others. As artists, I care about creativity, expression, and embrace… embracing the unexpected possibility in this process.
+
+00:07:27.000 --> 00:07:32.000
+What excites me about GenAI was it connect all three.
+
+00:07:32.000 --> 00:07:47.000
+It's just a new way to build a system, lower the barriers for peoples, and open up the new form of creative expressions. And that is what led to me to the core question of this dissertation.
+
+00:07:47.000 --> 00:08:02.000
+It's how Gen AI can expand MR beyond SS creations toward to interactive collaboration, behavior, authoring, and perceptual transformation. These perspectives come together to today's topic.
+
+00:08:02.000 --> 00:08:12.000
+It's generating your reality, advancing the design of AI-generated user experience in mixed reality.
+
+00:08:12.000 --> 00:08:17.000
+So this is today's outline. We're gonna jump into the first one.
+
+00:08:17.000 --> 00:08:32.000
+Motivation. Okay. So MR is a really powerful device. They can do creativity, collaboration and simulation. However, building MR is a really hard process. You need years of.
+
+00:08:32.000 --> 00:08:57.000
+Training, you'll need experience, and doing a lot of things to doing right, you need a lot of effort. However, generative AI kind of lower those creations pipeline or workflow in other domain, but… Gen AI in MR still facing a lot of challenge in spatial coherence, multimodal interaction, responsiveness, also UX design.
+
+00:08:57.000 --> 00:09:13.000
+So, in this case, this dissertation argue Gen AI can move MR beyond just creating assets. By this mean is, like, we are not creating model and putting to the MR.
+
+00:09:13.000 --> 00:09:22.000
+MRC, just like that. So, I framed through the four connected ideas. First is iterate co-creation.
+
+00:09:22.000 --> 00:09:38.000
+Creation does not happen just one prompt, one output. It's like we're keeping trying, seeing, and revising and negotiate the result. The secondly is multimodal interaction. In mixed reality, we're not just.
+
+00:09:38.000 --> 00:09:55.000
+typing the prompt in mixed reality. We can use our body, our sketch, or even other, uh, spatial information to prompting the generative model. And the third one is AI as a co-creative.
+
+00:09:55.000 --> 00:10:11.000
+partner. The AI is not just only a backend creation tool, it can suggest the possibility, transform the scenes, introduce the surprise, and participate in the creative process. And the last one is the spatial grounding.
+
+00:10:11.000 --> 00:10:26.000
+That generated results should not just happen on the screen, it should happen in place, and in time, and in a real object. So, I'm gonna introduce my three projects through editing reality, Dream Proto, HyperVision.
+
+00:10:26.000 --> 00:10:41.000
+I will show generative AI system can support creation that unfold through interaction, take the place in physical context, and shaped by both human intent and AI-generated possibilities.
+
+00:10:41.000 --> 00:10:59.000
+First project, editing reality. Okay, so a lot of previous work of the MR system is like placing the virtual object in the scenes. But if you want to like.
+
+00:10:59.000 --> 00:11:16.000
+Modify the real scenes, or modify the real object in the field, you need… you require a really significant setup. For example, like setting up multiple connect or something like that, to doing the modify.
+
+00:11:16.000 --> 00:11:26.000
+However, generative AI can try to accelerate, or helping us to doing this kind of editing.
+
+00:11:26.000 --> 00:11:35.000
+So the direct question we ask is, how can Gen AI support the real-time editing of mix in the mixed reality?
+
+00:11:35.000 --> 00:11:55.000
+Okay, to address this, I developed editing reality, a real-time MR system for on-demand editing of physical world through GenAI and multimodal interaction. I'm gonna play the video, I know tons of you already seen it, so I'm not gonna pay all the things of you.
+
+00:11:55.000 --> 00:12:05.000
+Okay, never mind. I just saw someone sitting outside. You can set inside. Okay.
+
+00:12:05.000 --> 00:12:20.000
+Editing Reality supports eight core features: Generate.
+
+00:12:20.000 --> 00:12:28.000
+Iterate.
+
+00:12:28.000 --> 00:12:36.000
+Reconstruct.
+
+00:12:36.000 --> 00:12:44.000
+Retexture.
+
+00:12:44.000 --> 00:13:14.000
+Sketch-based modeling.
+
+00:13:14.000 --> 00:13:25.000
+Erase. anchor.
+
+00:13:25.000 --> 00:13:31.000
+and collaboration. Each designed to align with users' creative workflows in physical space.
+
+00:13:31.000 --> 00:13:50.000
+Okay, so in the workflow you see is like I can use prompt, just create my coffee table over here, or I can changing retexturing the chair into a leather texture, or reconstruct another sofa, or even erase the plants.
+
+00:13:50.000 --> 00:14:00.000
+on the table, and also you can use Sketch to create a 3D model with your prompt.
+
+00:14:00.000 --> 00:14:16.000
+How do we do that is, like, the heavy lifting of the generated pipeline is hosting on a local machines, and the headsets only take care to placing the object, download the generated content, and receive users.
+
+00:14:16.000 --> 00:14:20.000
+Uh, prompt, and send it to the local host.
+
+00:14:20.000 --> 00:14:36.000
+So by this, we actually run through the two studies. One is, like, a workshop study. Uh, first, we have, like, 14 participants is like a prototype study plan, and we kind of leading to the 7 design goals.
+
+00:14:36.000 --> 00:14:52.000
+And then that leading to the last final system build implementation. And we use that implementation to evaluate with the expert, with a expert. And the result actually come out as this framework.
+
+00:14:52.000 --> 00:15:09.000
+After an expert review, I developed a co-creation ecology designery frameworks, the key idea that co-creation in generative MR is not just prompting to AI, it's a situate, social, and spatial process.
+
+00:15:09.000 --> 00:15:25.000
+involve user, collaborators, the physical room, and generated artifact and AI system. Because designers are working in MR, they are standing inside a scene what they are modifying.
+
+00:15:25.000 --> 00:15:32.000
+They can move around, evaluate, scale with their body, and discuss the possibility.
+
+00:15:32.000 --> 00:15:45.000
+and interpretate AI output in a relation to the physical environment. So I described that process is negotiate intent. Intent is not fixed at a first prompt.
+
+00:15:45.000 --> 00:15:54.000
+But it developed through previewing, revising, and discussing, uh, waiting, moving, and iterating in the space.
+
+00:15:54.000 --> 00:16:06.000
+So this project contributes just not just a system, but also a framework that understanding human AI co-creation inside a physical space.
+
+00:16:06.000 --> 00:16:20.000
+So, the takeaway is, uh, editing reality is a generative AI, not just a tool. It becomes a co-creative partner that you can talk with and interact with.
+
+00:16:20.000 --> 00:16:33.000
+Users are not simply prompting the model accepting result, they are negotiated with the system through backend forward process, prompt preview, evaluate, revise, and try again.
+
+00:16:33.000 --> 00:16:48.000
+The mixed reality, the third takeaway is mixed reality is important in this setup because we let users working in the physical space, and they can embody… they can design through their embodied.
+
+00:16:48.000 --> 00:17:01.000
+experience. So, editing reality show that human AI co-creation in MR not only computational, it's spatial, social, and situate.
+
+00:17:01.000 --> 00:17:18.000
+The second project is Dream Proto. If editing reality is focused on editing the world, then DreamProto asks one question is, what if GenAI not just… Create object, but create interactive.
+
+00:17:18.000 --> 00:17:28.000
+So that's shift the question from what appears in the space to how things act in space.
+
+00:17:28.000 --> 00:17:49.000
+So a lot of generated MR system is, like, of generated assets and putting in the space, which is exactly like editing reality did. However, if I want to generate a virtual sphere, and I might… don't care what it looks like, I want it to bounce and collide with other object, trigger the particle system.
+
+00:17:49.000 --> 00:18:15.000
+response to the users, even just control the physical devices in the space. How do I do that? So… Trim Proto explore how GenAI can support behavior authoring in mixed reality. The system uses prompt and the scene's context to generate not only 3D objects, but also a runtime Lua-based behavior.
+
+00:18:15.000 --> 00:18:21.000
+script that defines how those objects interact with users.
+
+00:18:21.000 --> 00:18:37.000
+So we kind of frame it in the 3 different interaction type. So these 2 player over here is the user, and you see the color coding blue is the virtual object. So you can see the first.
+
+00:18:37.000 --> 00:18:45.000
+Interaction is user interacts with the generative virtual object, and the virtual object interacted.
+
+00:18:45.000 --> 00:18:52.000
+Uh, which each other, and then the virtual object will interact with the environment. Yeah.
+
+00:18:52.000 --> 00:19:10.000
+Okay, so I'm going to show a couple video that how we how we do the development. So that's the first iteration that we just only give generate a lamp and LLM kind of define that, oh, because it's a lambd, so it should have a trigger that I can.
+
+00:19:10.000 --> 00:19:23.000
+Turn on the light, something like that. So, in this stage, we didn't really touch how to do the real-time behavior programming, but in the second stage.
+
+00:19:23.000 --> 00:19:31.000
+Here? What? I can show… I generate a baseball.
+
+00:19:31.000 --> 00:19:46.000
+And when a baseball falling on the ground is the collision happening. So you see the particle is split out, and you can see my baseball bat is kind of can adding the force on the base on the baseball. It's not that good, but you can see it.
+
+00:19:46.000 --> 00:20:02.000
+Okay. And the second part is, I generate a UFO, and the UFO can fly away, something like that, and following a path. So you can see it has a cosine wave like that, but.
+
+00:20:02.000 --> 00:20:07.000
+I don't like this kind of path, so I can call my UFO back.
+
+00:20:07.000 --> 00:20:16.000
+And here has a panel that you can changing the different parameter, which is generated by AI as well.
+
+00:20:16.000 --> 00:20:45.000
+Then you can see the UFO fly closer, and you hit the table so you can see it's flicking around something like that. So that's the second stage we did with this project, and… Then, continuously, we build another… we did another try as, like, we built a conversational panel that you can keep in prompting the same object and keeping changing the behavior, in this case.
+
+00:20:45.000 --> 00:21:01.000
+So we can see… I just prompting like breathing, and you can see that sphere just doing the animations, because LLM thinks breathing is, like, um, changing the size.
+
+00:21:01.000 --> 00:21:13.000
+Okay. And moreover, I keep in prompting, I say, oh, not just only breathing. I want you to fly me, uh, like, circulate paths around me.
+
+00:21:13.000 --> 00:21:19.000
+Then I can send the second prompt. Like this.
+
+00:21:19.000 --> 00:21:28.000
+And you can can see the the sphere still breathing and just flying around.
+
+00:21:28.000 --> 00:21:35.000
+with me. Okay. And the second part is, we're going to show.
+
+00:21:35.000 --> 00:21:43.000
+The object can interact with each other. So the prompt I gave is, like, if the other object hit you, just changing the color.
+
+00:21:43.000 --> 00:21:53.000
+Yeah. So just remind me remind you again, those we did not do any coding here, just only using the natural prompt.
+
+00:21:53.000 --> 00:22:12.000
+So it's coming like that. The last one is, we can show up. We want to relay out the virtual object. So I'm going to relay out this cube. Say this gonna circulate. Can you relay out like a circle? Yeah.
+
+00:22:12.000 --> 00:22:26.000
+Something like that. So you can see the final result. Oh, actually, it's here. It will circulate like that just by using LLM to interpret your intent here.
+
+00:22:26.000 --> 00:22:33.000
+So how do we do that? So basically, dream proto is a prompt engineering system.
+
+00:22:33.000 --> 00:22:40.000
+That we have a set of instruction and set of the rules over there, and.
+
+00:22:40.000 --> 00:23:10.000
+Can kind of interpretate a user's intent, and you generate the object, and you apply a Lua script. And why are we using Lua script? Because this is one of the methods that you can let, uh… GameObject running in runtime, you will have to use Lua script, you cannot use the C-sharp in this context. And you can apply the interaction, particle effect, then you create an interactive object, then the object will come back to the environment.
+
+00:23:13.000 --> 00:23:18.000
+And you will affect the next round of the generations.
+
+00:23:18.000 --> 00:23:34.000
+So the contribution of the Dream Proto, it extend the generated MR from access generation to behavior authoring. It shows that Gen AI can act as a behavior scripting layer. It makes interactive MR prototyping.
+
+00:23:34.000 --> 00:23:41.000
+More accessible and dynamic, from editing content to authoring interaction.
+
+00:23:41.000 --> 00:23:57.000
+So, takeaway is the system should not fully automate creation. Instead, it should support a collaboration between AI and generation human intent, which is like the system should not like, oh, I get a prompt.
+
+00:23:57.000 --> 00:24:12.000
+LEMP, so you should turn on something like that. You should have a keeping continue conversation with the system, and you will have the best result. And the second takeaway is that us interaction become more complex, the system should have structure.
+
+00:24:12.000 --> 00:24:30.000
+Pipeline can support a richer prompts and more object… and more behavior, because we are using prompt engineering here, so it has… facing a lot of problems that if I'm gonna fit for scenario A, then I have to fix it.
+
+00:24:30.000 --> 00:24:48.000
+A lot of things, but if you change it to Scenario B, then I cannot really transfer that, too. So I think for a scalable system, it's necessary, like, this kind of generative system. And the third… third one actually is one of the answer, how we fix that is.
+
+00:24:48.000 --> 00:24:54.000
+Dream Proto is strongest when it's supporting, like, uh, specific.
+
+00:24:54.000 --> 00:25:10.000
+Uh, scenario. Rather than making something like a Unity engine in the MR system, we should pick, like, the certain scenario, so that's one of the reasons in dissertation, I kind of say we are going to make.
+
+00:25:10.000 --> 00:25:16.000
+IoT system in the future. Okay.
+
+00:25:16.000 --> 00:25:22.000
+Now, the last project. The third project, uh, is Hypervision.
+
+00:25:22.000 --> 00:25:37.000
+If TrimProto asks how generative AI can generate objects and behavior in MR, Hypervision asking a more radical question is, what if generative AI could transform.
+
+00:25:37.000 --> 00:25:47.000
+Uh, not only what appear in the space, but how the world itself visually presented to user.
+
+00:25:47.000 --> 00:26:03.000
+So, traditionally, MR still treated real and virtual in the separate layers, even with generative tools, most systems still generate the content in certain things or replacing the things.
+
+00:26:03.000 --> 00:26:18.000
+Hypervision asking one question. What if we transform the presented view itself? How we do that? We introduce the concept of generative re-rendering.
+
+00:26:18.000 --> 00:26:33.000
+Which is take users' path-through view through a diffusion model, and after diffusion model regenerated, and you send it back to the headset.
+
+00:26:33.000 --> 00:26:51.000
+Okay. So ideal is illustrated as a perception action loop. User input virtual elements and combined with the physical scenes processed through a deficient model and returned as a re-rendering view.
+
+00:26:51.000 --> 00:27:06.000
+In this actions, we can say it is a continuous circle of seeing, acting, and re-seeing, because every friend will affecting the next interaction and next decision of your prompting.
+
+00:27:06.000 --> 00:27:24.000
+So in this case, we proposed, like, 5 interaction scenario. Uh, first one is re-rendering the virtual object and re-rendering the physical object, hyper-rendering, and false VR scenes re-rendering, and the last one is the four physical scenes re-rendering.
+
+00:27:24.000 --> 00:27:54.000
+And here's the video. I… still, I'm not gonna play everything, and I cannot find my mouse, okay, here.
+
+00:28:37.000 --> 00:28:55.000
+So after a system build, we run a user study, and I have to explain the user study real quick. So we compare 2 different transformation setting, and I'm going to play this video just to explain real quick. And where's my mouse? Okay.
+
+00:28:55.000 --> 00:29:12.000
+So we kind of testing out two different kind of transformation. So, for example, like high step is mean it will following the RGB input, so you can see the couch still like couch, but the lower step is totally.
+
+00:29:12.000 --> 00:29:31.000
+AI just reinterpreted everything. So you can… I keep playing this here. So you can see there's a different and we compare these two conditions and to see how, uh, user feeling and how they like it.
+
+00:29:31.000 --> 00:29:46.000
+So the first insight is the trade-off between recognizability and a reinterpretation. So if you're gonna use this system in a kind of like.
+
+00:29:46.000 --> 00:29:59.000
+interro design or product design, you will choose a high step, because it's following the object's visual cue, but if you want to build a VR or.
+
+00:29:59.000 --> 00:30:14.000
+Like imaginary scenes, then you will choose the lower lower step. So user actually didn't mention, like, which one is their favorite. It's, like, both, there's a… has their… their own role in this situation.
+
+00:30:14.000 --> 00:30:35.000
+And the second insight is rapid interaction support ideation. The participant doesn't want respond to the final image, they want to quick to see and try and revisit. So, you can see in the video, it's flicking around, but for participants, that's actually a good thing because they can see.
+
+00:30:35.000 --> 00:30:46.000
+A lot of, um, lots of different versions, different generation in the same time, and in the same space. And the third insight is spatial corresponding support, control, and continuity.
+
+00:30:46.000 --> 00:30:56.000
+Participants felt more in control when the generation changed and stayed connected to the physical space and with their input.
+
+00:30:56.000 --> 00:31:05.000
+So the takeaway is, actually, a lot of people, it's, uh, enjoyed the uncertainty that.
+
+00:31:05.000 --> 00:31:23.000
+Introduced by AI. The generated output not only fully predictably, but participant doesn't think that's a necessarily a problem. Secondly, the system invite user to explore more. So our system mechanism actually let.
+
+00:31:23.000 --> 00:31:31.000
+Uh, user to trying out their own scenario, and they defined some scenario that we never think about it.
+
+00:31:31.000 --> 00:31:44.000
+And the last one is user engage with generative regenerative as a co-creative process. So, this system is the part of the creativity process.
+
+00:31:44.000 --> 00:32:08.000
+Okay. That's leading to conclusion. So to synthesize these 3 project, I want to describe how each one expand the rows of generative AI in mixed reality. In editing reality, Gen AI act as a collaborator. It helps user edit.
+
+00:32:08.000 --> 00:32:16.000
+Edit the physical world through generation, and with all 8 core feature.
+
+00:32:16.000 --> 00:32:29.000
+In Dream Proto, generative AI becomes a behavior author. It not only generates what object look like, it generates what object act like.
+
+00:32:29.000 --> 00:32:45.000
+In hypervision, generative AI becomes a perceptual meditator in transform user pass-through view, changing how the physical world visually presented and interpreted.
+
+00:32:45.000 --> 00:33:02.000
+So, I kind of back to the, um, the frameworks I mentioned before. So, each project responds to these ideas in different way. In editing reality, this project emphasized multi-model interaction and spatial grounding.
+
+00:33:02.000 --> 00:33:18.000
+Because user not only designed in a separate screen, they are standing inside the space they are modified. In Dream Proto, uh, AI is co-created partner because the AI participate.
+
+00:33:18.000 --> 00:33:36.000
+In the Translate Human Intent to interactive logic. In hypervision, AI move toward to perceptual transformations. In this project highlights iteration spatial grounding, and treat perception as a part of design.
+
+00:33:36.000 --> 00:33:52.000
+Across these projects, these ideas become more than just framing, emerged as a design principle for future generative MR system. Together, these principles show the Gen AI can move beyond create asset.
+
+00:33:52.000 --> 00:34:00.000
+And toward to more situate, embody, and collaborate for human-AI creation.
+
+00:34:00.000 --> 00:34:21.000
+Okay, before… before I end, I want to return the two critical moments of this journal, uh, this journey. So the first one is, I… try the HTC VR first time, and the second time is like I seriously engage with ChatGPT.
+
+00:34:21.000 --> 00:34:36.000
+Both moments gave me the similar feeling that they expand my imagination what the computational future will become, and more importantly, they help me feel like I can reach out something.
+
+00:34:36.000 --> 00:34:53.000
+Previously unreachable, and this brings me to one of the large belief behind this dissertation. The goal of Gen AI, at least for me, is not replace human creativity. It's expand what people can reach.
+
+00:34:53.000 --> 00:35:07.000
+shape and explore. So, when people are asking, and I mean a lot of people is asking the same question, it's like, is AI is gonna replace us? I will say no. Ai is not gonna replace us, period.
+
+00:35:07.000 --> 00:35:14.000
+Meta-generative interactive system today, they are designed with the one idea is, like.
+
+00:35:14.000 --> 00:35:24.000
+You give me one prompt, and I can give you everything. However, for human beings, this… our desire is not enough.
+
+00:35:24.000 --> 00:35:44.000
+Because as a creator, as a builder, and as a maker, our satisfaction does not come from, like, oh, that works. It's come from… to saying, wow, I make it work. So that process matter, that's exploration matter, and more importantly, the struggling matter.
+
+00:35:44.000 --> 00:35:56.000
+I remember something like, uh, Olympic gold medalist Alexa Liu in an interview saying, I love struggling because struggling made me feel alive.
+
+00:35:56.000 --> 00:36:07.000
+I think that captures something important about creation. We do not want result. We want the experience to reach those unreachable.
+
+00:36:07.000 --> 00:36:28.000
+Generative AI will become more powerful, for sure, in the future or next week. Okay. So, but the human desire will keeping reached further, and we don't know… we do not only want convenience, we want expression, participation, and the ability to reach out something that previously unreachable.
+
+00:36:28.000 --> 00:36:40.000
+That's why combination of GenAI and MR is exciting to me because it giving us a new way to shape, question, and create across both physical and virtual world.
+
+00:36:40.000 --> 00:36:54.000
+I hope this research can contribute even in a small way for that future. A future where people can imagine, build, and explore in a way that previously cannot reach.
+
+00:36:54.000 --> 00:36:59.000
+And thank you.
+
+00:36:59.000 --> 00:37:04.000
+Okay.
+
+00:37:04.000 --> 00:37:13.000
+Okay, it's not. So I did not write like 20 pages acknowledgement like my colleague.
+
+00:37:13.000 --> 00:37:23.000
+So I cannot stare in your eyes if you are in person, I will say I love you and thank you. No.
+
+00:37:23.000 --> 00:37:42.000
+First of all, committee. So thank you, Alan. Thank you, Alan. Thank you for the meat to this program. And recently, Alan told me one thing is the HCI community in Taiwan.
+
+00:37:42.000 --> 00:37:57.000
+Say Alan is our Azo. Azo is Taiwanese great-grandmother. So it's an honor that working with you and to be your students and your kindness.
+
+00:37:57.000 --> 00:38:09.000
+I wish one day I have the same ability to share those things to my student or my colleague. Thank you. Okay. And Tom. Hi, Tom.
+
+00:38:09.000 --> 00:38:17.000
+Thank you, Tom. He's so nice, because. I kind of fucked up with my comm.
+
+00:38:17.000 --> 00:38:26.000
+In the first time, and Tom actually give me his number. If any problem, just call me, and I did call.
+
+00:38:26.000 --> 00:38:34.000
+So thank you, Tom, and I will be in Bay Area tomorrow. Maybe we can met. I will text you.
+
+00:38:34.000 --> 00:38:51.000
+And then Amy. Thank you, Amy. She's my quantitative method teacher, and I always remember that we working on our IEEE VR paper till 5 Am. With touring, and Rishi was in India.
+
+00:38:51.000 --> 00:38:57.000
+And Amy has a soccer game, like, next day.
+
+00:38:57.000 --> 00:39:12.000
+And she's so nice. Just stay here and helping us with the paper. And I mean, I recommend that if you need a committee, just looking for Amy. Yeah, and Netta was there. I don't know why.
+
+00:39:12.000 --> 00:39:26.000
+Okay. Thanks, Leo and Daniel. You 2 are my all time hero, for sure. And I think it's an honor that working both of you, and.
+
+00:39:26.000 --> 00:39:42.000
+I think I will always bragging that I working with Leo Suzuki and Daniel Leisinger in the same room, but in different time. Amazing thing. I hope one day I can reach out to your level, but we'll see.
+
+00:39:42.000 --> 00:40:01.000
+Thank you. Oh, Marcus, Mark here. Okay, never mind. Mark is here, and I want to thank Mark, because I think Atlas is a really special place for me, and I think for all of us, thank for his directions and and his vision. And thanks, Mark.
+
+00:40:01.000 --> 00:40:15.000
+Okay. Oh, next one is my family. Okay, that's my mom. This is my dad. This is a picture that before I came to United States, there's a dinner and kind of like.
+
+00:40:15.000 --> 00:40:34.000
+Uh, yeah, so I forgot what to say. Okay, so actually my English is, uh, influenced by my dad because when I was like six years old or something, my dad went to practicing his English, so he will reading out the English version of Sherlock Holmes.
+
+00:40:34.000 --> 00:41:04.000
+It's next to me, and then translated into Chinese or Taiwanese, and just, like, helping me to understand English. I don't know, probably just want to practice, okay? And my mom actually, um, she inspired me a lot of ways, and one of the biggest inspi… inspiration is, she finished her undergrad when she was almost 45 years old. It was a university next to Alan's high school. So…
+
+00:41:04.000 --> 00:41:34.000
+So she her. Her major was special education, and it's a nice school, so she had to bring me to there. And the professor just saw a kid sitting over there, they are educational professor, right? So I think over there, they were so exciting, like, oh, there's a kid over there, so… Let me try out my theory to use. They put all the mental rotation or something like and just say, can you do that? No. They're like, yeah, this kid, his brain is not good enough to do this.
+
+00:41:34.000 --> 00:41:56.000
+Yes. Thank you, Professor. And the last one is my aunt. She's the professor in Tainan Art University. She was my babysitter, and she encouraged me to doing my PhD and a lot of things. And thank you for that. And her PhD thesis is about heavy metal music.
+
+00:41:56.000 --> 00:42:03.000
+Um, something like that, but, uh, it's writing in France, so French, so I cannot really read it.
+
+00:42:03.000 --> 00:42:22.000
+Okay, thank you for my family. Next one is you guys! Yay! So, thank you, everyone coming here today, and it is a blast to working with you and to hanging out with you. Come plan something with you, and…
+
+00:42:22.000 --> 00:42:41.000
+I think I come here, I don't have friends, I mean, I have friends in California, no one living in Denver, right? So thank you for for your companion, and… Thank you, thank you, thank you. And I want to shout out to my cohort. I think it's, uh, is David here?
+
+00:42:41.000 --> 00:43:01.000
+Yay, David! And is Deanna on my cohort? You both are going to do your defense. You definitely better than this. I'm not sure. I'm not sure I will be here for you guys, because I'm not sure where am I, actually. But all the best, you all do.
+
+00:43:01.000 --> 00:43:12.000
+do the really good defense. And shout out to two my cohort, Dr. Rishi and Dr. Krasik.
+
+00:43:12.000 --> 00:43:25.000
+You guys will conquer the world for sure. These 2 is the best, and hopefully one day you conquer the world. Just leave a tiny piece for me. Yeah, thank you so much. Okay.
+
+00:43:25.000 --> 00:43:42.000
+That's keeping set connect and keeping sending mean to each other. And if we are in the same city, please text me. I will try my best to show up, or I will write a really long text and with the two crying face at the end.
+
+00:43:42.000 --> 00:43:48.000
+Thank you so much!
+
+00:43:48.000 --> 00:43:53.000
+Right? So you turn on the lights, actually, I think.
+
+00:43:53.000 --> 00:44:16.000
+Do we need? Yeah. Yay. Wow. Okay, that's a light.
+
+00:44:16.000 --> 00:44:27.000
+Yeah, are you any question in. Yeah, sure. I… It's okay. Yeah.
+
+00:44:27.000 --> 00:44:33.000
+Moves on to ask the question. Any qualifying questions?
+
+00:44:33.000 --> 00:44:41.000
+I would. Yeah.
+
+00:44:41.000 --> 00:44:55.000
+especially at the end, you were mentioning how. struggle with matters misfeeding with saying wow, I made it work is important yeah what would you say was the moment of these projects that made you feel that just on this?
+
+00:44:55.000 --> 00:45:12.000
+Oh, strongness that you thought was that that made you feel the best about making it and making all of that one together. I think it's the last project, the hypervisions, because this is something in my mind, uh.
+
+00:45:12.000 --> 00:45:27.000
+is I always want to try it, and the whole project, the result or something is astonishing. Like, oh, oh, that's actually work, although there's some flaws about that, but.
+
+00:45:27.000 --> 00:45:40.000
+I think that's generally make me feel like I'm capable to finish up this, uh, research project, yeah.
+
+00:45:40.000 --> 00:45:51.000
+Right. Hello.
+
+00:45:51.000 --> 00:45:56.000
+If you build a tool instead of hypervision, hypervision.
+
+00:45:56.000 --> 00:46:00.000
+Aren't they interested in? Yeah.
+
+00:46:00.000 --> 00:46:22.000
+In lower quality something in the yeah. You can imagine if that would have any meaningful quality. So actually, even the hypervision I show is in a pretty low quality because we don't have a really good what what happened?
+
+00:46:22.000 --> 00:46:34.000
+Oh, sorry. So Netta was asking if the hypervision in a really low quality result, can I imagine what kind of system will.
+
+00:46:34.000 --> 00:46:58.000
+Came out, right? Yeah. So actually, in hypervision, because you saw the video is kind of looking really good, but… the resolution or the transformation flicking around actually is the low quality in this time. So, I can share one thing is how I framed this work. It's actually, I kind of avoiding those quality changing things.
+
+00:46:58.000 --> 00:47:16.000
+But even that, a lot of user or participants, they try, they really like it, because they never feel… never have this kind of experience, like, oh, your whole vision is being taken out for the generative AI. Of course, if there's a better quality.
+
+00:47:16.000 --> 00:47:34.000
+In the future, they probably will compare, wow, your thing is, like, But I think for now, because it's a novel interaction, so people think, oh, that's really cool, and they will think about how to working on it, yeah.
+
+00:47:34.000 --> 00:47:39.000
+Aye. For the… when you're doing, like.
+
+00:47:39.000 --> 00:47:55.000
+Full AI, like, for what you're seeing, looking out into the room. Yeah. Uh, if you… Is there like enough stability in what you're creating that you could do a re-render? Yeah. And for, like, each eye to actually get, like, the depth perception?
+
+00:47:55.000 --> 00:48:11.000
+Yes. Okay. Do I need to repeat the question? Yes. So Sawyer is asking, like, is there possible to stabilize the generative frame?
+
+00:48:11.000 --> 00:48:18.000
+Basically, yeah, and or or in each using each ice. So the question is.
+
+00:48:18.000 --> 00:48:28.000
+I can answer that really probably really bad way is the technically, if we have a really strong graphic card, the the.
+
+00:48:28.000 --> 00:48:45.000
+the generated result. I mean, throughout all my project, the generative result will be perfect. But again, I mean, I working around those those system, and even the generative result is not good enough. But I think in the user study we still can think about.
+
+00:48:45.000 --> 00:49:01.000
+The possibility that if that's going that great, and for the 2 eyes question again, it's like if you're gonna rendering 2 2 times, then it's like double time of the rendering and double time of computation. Totally doable.
+
+00:49:01.000 --> 00:49:10.000
+But, yeah, it didn't money. Yes.
+
+00:49:10.000 --> 00:49:17.000
+I think we can move to… Is anyone on on mine has a question?
+
+00:49:17.000 --> 00:49:25.000
+I want most of your committee. Yeah. Okay, then that that's perfect. Okay.
+
+00:49:25.000 --> 00:49:45.000
+But something someone saying something in the chat. Yeah. Daniel. Yeah, sure. But actually, Daniel and Tom is like equally awake.
+
+00:49:45.000 --> 00:49:46.000
+Alright, sounds good.
+
+00:49:46.000 --> 00:49:48.000
+Daniel can go first, I think. Yeah. Yeah. Hello.
+
+00:49:48.000 --> 00:49:50.000
+Yeah, um…
+
+00:49:50.000 --> 00:49:52.000
+Thanks for your presentation.
+
+00:49:52.000 --> 00:49:56.000
+I have a question about… so…
+
+00:49:56.000 --> 00:49:57.000
+When you interact with these systems,
+
+00:49:57.000 --> 00:49:59.000
+Yes.
+
+00:49:59.000 --> 00:50:04.000
+Um, a lot of his… it is prompt-based.
+
+00:50:04.000 --> 00:50:05.000
+Yeah.
+
+00:50:05.000 --> 00:50:10.000
+And, uh, when you were showing Dream Portal, you were showing mostly text prompting?
+
+00:50:10.000 --> 00:50:11.000
+The question for me would be…
+
+00:50:11.000 --> 00:50:14.000
+Yes.
+
+00:50:14.000 --> 00:50:20.000
+You've experimented with other modalities of prompting?
+
+00:50:20.000 --> 00:50:22.000
+uh… like, using visual inputs, or…
+
+00:50:22.000 --> 00:50:24.000
+Okay.
+
+00:50:24.000 --> 00:50:30.000
+since you are in mixed reality and interacting with it, what is your…
+
+00:50:30.000 --> 00:50:35.000
+take on, for instance, using gestures or other… other modalities.
+
+00:50:35.000 --> 00:50:54.000
+Mm-hmm. Okay. Thank you. So I mean, in dream proto, because we are testing kind of like testing out the ability of how LLM can generate the behavior. So we focus on the text only.
+
+00:50:54.000 --> 00:51:24.000
+However, I won't say just only text, because it's… before we send everything to LLM, we still, uh, kind of attach the few, uh, sorry, the scenes, scenes information. For example, there's a table over there, there's a… There's other virtual objects in the scene, so it's not just only user's prompt, but I think, uh, in the other project, like editing reality, we're actually trying just using Sketch as another prompting method. So I think.
+
+00:51:28.000 --> 00:51:52.000
+There will be really interesting, like, combine those different modality together. And I will say there's one tiny part I tried to do, but it's not doing that well, is I want to inquire the, uh, space informations to… into the DreamProto generations. But I think because we are using prompt engineering is not.
+
+00:51:52.000 --> 00:52:08.000
+Good enough for now, so the generation sometime is still off and is not stable. Yeah. But I think that's a really good idea like we can think about the other modality in this system.
+
+00:52:08.000 --> 00:52:09.000
+Yeah, sure, thank you.
+
+00:52:09.000 --> 00:52:14.000
+Does that end? Thank you.
+
+00:52:14.000 --> 00:52:16.000
+I don't know if we want to go around and circle back, or…
+
+00:52:16.000 --> 00:52:18.000
+If we should ask all questions at once, Erland, what's your take on that?
+
+00:52:18.000 --> 00:52:23.000
+Yeah.
+
+00:52:23.000 --> 00:52:39.000
+Alec. Yeah, but we can keep in asking questions. Or do we want to do a round like he asked the wrong question. Tom asked one question, and he asked. Oh, I think Daniel can continue it.
+
+00:52:39.000 --> 00:52:43.000
+Yeah, I'm continuing question. Yes. Then, Daniel, you can asking question. Yeah.
+
+00:52:43.000 --> 00:52:55.000
+So, I, uh, had one question about hypervision, and that was, uh, so you were mentioning already, I don't know if I fully understood the previous question,
+
+00:52:55.000 --> 00:52:56.000
+Yes.
+
+00:52:56.000 --> 00:53:02.000
+Uh, by the audience were mentioned about the visual quality, and I remember in the video, there was a lot of flickering between objects and warping between them.
+
+00:53:02.000 --> 00:53:03.000
+Yes. Yes.
+
+00:53:03.000 --> 00:53:08.000
+what was that? You were saying something about graphics cards performance, but could you maybe elaborate a little bit on that?
+
+00:53:08.000 --> 00:53:28.000
+Yes! So… Yes, so that's so the the string model we use is called string diffusions. And actually, what you say seen in the in the video, the quality or the resolution actually only, uh, I think, is 500…
+
+00:53:28.000 --> 00:53:43.000
+12 and 512. So these are really small, small resolutions. And because we want to heat up the FPS to 30%, 30 FPS, I mean, still slow.
+
+00:53:43.000 --> 00:54:00.000
+So you can see the quality is not consistently. But I did saw someone with using the better graphic card and better scenes that they can hit on, like, 10 FPS, but in a really stable, just not.
+
+00:54:00.000 --> 00:54:10.000
+flicking around system. But however, that's still it's kind of like a balance. Like, if you want quality, then you need a really good.
+
+00:54:10.000 --> 00:54:30.000
+good hardware, but then your FPS getting low. Then the FPS getting low, then you cannot really fully immersive in the hypervision experience, yeah. But… but I… again, I think that's… that's not the really, uh, the target I want to focus on.
+
+00:54:30.000 --> 00:54:46.000
+current project, because I think, yeah, probably next year, there will be a better graphic card, better technique, can solve that, so I… I framed that paper as, like, oh, even the quality is not that good, so how can you reimagine, like.
+
+00:54:46.000 --> 00:54:54.000
+If this project is going extremely well, then what kind of scenario you can come up? Yeah.
+
+00:54:54.000 --> 00:54:57.000
+No, it's totally reasonable. I mean, we all expect…
+
+00:54:57.000 --> 00:55:00.000
+Um, hardware to become faster, and…
+
+00:55:00.000 --> 00:55:01.000
+And software, too, as well.
+
+00:55:01.000 --> 00:55:02.000
+Yes.
+
+00:55:02.000 --> 00:55:09.000
+Uh, one question as to with the user study, you were mentioning when people noticed that… I would… I would imagine it would be highly disruptive.
+
+00:55:09.000 --> 00:55:11.000
+Is it possible to even, uh, run a proper comparison or study?
+
+00:55:11.000 --> 00:55:15.000
+Yes.
+
+00:55:15.000 --> 00:55:21.000
+when there's things that are super low-res and flickering the whole time?
+
+00:55:21.000 --> 00:55:43.000
+I think actually the interesting thing is people. I think people kind of not really addressing the flickering is that disturbing, because, like, I just mentioned is like this is a totally new experience. So they did not know what's the stable vision look like.
+
+00:55:43.000 --> 00:56:13.000
+So let's think, oh, that's really cool, and that's following the structure, and that probably still anchor on some RGB image or something like that. So, the funny thing is, like, they did not really, really feel that it's disturbing. They think it's really interesting and really… Inspiring. However, I… if we gonna move forward to kind of really seriously testing this result, I would say we can bring another video-to-video real-time generation software, and to.
+
+00:56:18.000 --> 00:56:35.000
+to try out how people think differently, like using hypervision and compare a more stable visual to do that. Or just using a pre-rendering 360 video and compare to VR.
+
+00:56:35.000 --> 00:56:36.000
+Oh, it's really, really interesting. Um…
+
+00:56:36.000 --> 00:56:38.000
+Yeah, something like that.
+
+00:56:38.000 --> 00:56:42.000
+I also… I… I would love to learn just
+
+00:56:42.000 --> 00:56:47.000
+Briefly, what user input you did with the… with… with hypervision, like…
+
+00:56:47.000 --> 00:56:49.000
+As people are saying, I wanna…
+
+00:56:49.000 --> 00:56:50.000
+Yes.
+
+00:56:50.000 --> 00:56:56.000
+remove or add, or, like, how did… how did the prompting work out there?
+
+00:56:56.000 --> 00:57:13.000
+Okay, so in a hypervision, we actually introduce couple interaction thing is, 1st of all is sketching. You can draw in stuff. And the second thing is applying a mask into a real object, and you can see the real object being.
+
+00:57:13.000 --> 00:57:31.000
+applied by mask and changing to the different, different things. And actually, we did a lot of, like, virtual object insert in the hypervision. For example, we actually tried the particle system and and try, like, different animation, like an animal or human in here.
+
+00:57:31.000 --> 00:57:49.000
+But I think the most interesting way is people using different physical material to try out a hypervision. For example, like Diana using the clay like shapeable clay in hypervision and she make a flower.
+
+00:57:49.000 --> 00:58:10.000
+You can see it re-rendering to a flower, and you can change the prompt and see I can say, oh, a Star Wars-style flower, and you can see the flower become BBA or something like that. Yeah. So I think that's a… I think the physical interaction is actually more important.
+
+00:58:10.000 --> 00:58:11.000
+Ooh, I was hoping for that.
+
+00:58:11.000 --> 00:58:12.000
+Or more interesting, yeah, in that series.
+
+00:58:12.000 --> 00:58:13.000
+Well, thank you very much, and I'll pass it on to Tom.
+
+00:58:13.000 --> 00:58:16.000
+Yeah. Yeah, thank you.
+
+00:58:16.000 --> 00:58:34.000
+Um, hi, uh, it's… I really like you projected a sense of maturity as a scholar in your presentation, and full of confidence in explaining the materials, and this pretty good job. I think we will be proud of you going out to represent our university as a PhD,
+
+00:58:34.000 --> 00:58:44.000
+Uh, not a candidate anymore, as an ORD at some point. And also, you… I like how you started with the story of how you…
+
+00:58:44.000 --> 00:59:02.000
+Uh, you, you tried out the MR device for the first time, and also ChatGPT, and your study has been also tracking how the large-watch model has evolved over the past few years, very quickly. And so, I would like you to come in on
+
+00:59:02.000 --> 00:59:11.000
+from what you've been hearing from users, the change in terms of the perception about your work, as people
+
+00:59:11.000 --> 00:59:12.000
+Hmm.
+
+00:59:12.000 --> 00:59:23.000
+are… were from, like, oh, I never heard of, I could even spell… I couldn't even spell GPT. GTP? G-GTP, too. Everybody knows ChatGPT, you don't have to explain what prompt engineering. So have you… I wonder, did you comment on the… the…
+
+00:59:23.000 --> 00:59:25.000
+Yeah.
+
+00:59:25.000 --> 00:59:28.000
+progression of the user's perception of your system as a result of the…
+
+00:59:28.000 --> 00:59:31.000
+Yeah.
+
+00:59:31.000 --> 00:59:34.000
+increase familiarity of it.
+
+00:59:34.000 --> 00:59:37.000
+AI. Generally AI in general, so…
+
+00:59:37.000 --> 00:59:38.000
+Have you… are you able to track the changes?
+
+00:59:38.000 --> 00:59:42.000
+Yes. Yes.
+
+00:59:42.000 --> 00:59:58.000
+Okay, I think I more… I think I can tackle this problem with more user expecting user prospecting, because I feel like there's a 2 way to say that is the one way is the generations.
+
+00:59:58.000 --> 01:00:16.000
+Difference, because… personally feeling our grandchildren will think sending email is totally need to be generated. Like, we don't have to writing by ourself. Everything should be just generated, or something like that. And.
+
+01:00:16.000 --> 01:00:33.000
+And but for us, because I did do Leo's research user study. I really feel not comfortable like using cloud AI to write me an email and send it to some.
+
+01:00:33.000 --> 01:00:48.000
+real person. I feel like that's really scary. And I think that kind of thing is really just the generation problem. I think after next generation, they will say, that's fine, it should be ChatGPT to take over it.
+
+01:00:48.000 --> 01:00:56.000
+And the other way to take CN is last time I talked to David about one thing is, like.
+
+01:00:56.000 --> 01:01:04.000
+I feel like I coding with generative AI together, it made me feel angrier.
+
+01:01:04.000 --> 01:01:19.000
+Like, just why AI just doesn't listen to me, even that's not Michael. But that kind of emotion never happening when I coding by myself. And I think that's a really interesting thing, and I think, um, you.
+
+01:01:19.000 --> 01:01:30.000
+Kind of have more emotional burden when you talk to generative AI, because it's just keeping back and forth, back and forth, and nothing just really works.
+
+01:01:30.000 --> 01:01:36.000
+That could be fixed later, but what I'm trying to say in this dissertation is.
+
+01:01:36.000 --> 01:01:40.000
+I don't think generative AI take over those efforts.
+
+01:01:40.000 --> 01:01:56.000
+Generated AI should introduce a nature way to interact with system. We are not, I mean, the really good thing for ChatGPT is we are not inventing a new language to talk to AI model.
+
+01:01:56.000 --> 01:02:09.000
+is we just using chat box to talk to them. So, Gen AI should reveal ourselves or reconnect our expression back to ourselves. For example, if you are a painter.
+
+01:02:09.000 --> 01:02:34.000
+the prompting should be sketch. If you are musicians, the prompting should be using your your instrument, or you should sing in. And that's I think that's the power of generative AI is not take over the effort. It's like, let us reconnect to our human nature.
+
+01:02:34.000 --> 01:02:35.000
+Yeah.
+
+01:02:35.000 --> 01:02:39.000
+Also, can you also comment about the XR? So, XR, the MR hardware, that probably not changing as fast as the Gym AI, and…
+
+01:02:39.000 --> 01:02:40.000
+Yeah.
+
+01:02:40.000 --> 01:02:46.000
+So, there's probably one or two pieces of hardware coming out each year, instead of
+
+01:02:46.000 --> 01:02:47.000
+the 200 models for each year.
+
+01:02:47.000 --> 01:02:49.000
+Mm-hmm. Yeah.
+
+01:02:49.000 --> 01:02:54.000
+So, what do you see, uh,
+
+01:02:54.000 --> 01:02:57.000
+people also, like,
+
+01:02:57.000 --> 01:03:02.000
+becoming… are they becoming more receptive, or less receptive?
+
+01:03:02.000 --> 01:03:05.000
+of, uh…
+
+01:03:05.000 --> 01:03:08.000
+Mixed Reality Hardware.
+
+01:03:08.000 --> 01:03:26.000
+I feel like. Okay, so because I'm in this industry for many years, I have some feeling of the mixed reality is like over the years they cannot find a killer applications actually, and that's kind of sad.
+
+01:03:26.000 --> 01:03:43.000
+I think it's only working with, you can say, like a really specific workforce, like, um, for example, military, or for fixing things, or in the construction worker, something like that. But they cannot find a really.
+
+01:03:43.000 --> 01:03:58.000
+A better application to allows everyone to really have to using VR for every day. However, I think Meta, they find find a way try to promote that is.
+
+01:03:58.000 --> 01:04:16.000
+Using La Raban glasses and using the AI assistant, that could be a changing. But however, for me as a really deeper XR person, I don't think that's XR, but I think that's the experience is like it's kind of extend from XR because.
+
+01:04:16.000 --> 01:04:27.000
+Everything we see, everything we interact is connected with the bigger, uh, ubiquitous computing system. Yeah, so… I I still am.
+
+01:04:27.000 --> 01:04:28.000
+Yes.
+
+01:04:28.000 --> 01:04:32.000
+Um, yeah, I have one more quick question. Um, so what do you think about the, you know how AI agents becoming really powerful, and with CloudBot, and so on, and now they have a social network for them. They just talk to each other.
+
+01:04:32.000 --> 01:04:41.000
+Yes. Yeah.
+
+01:04:41.000 --> 01:04:42.000
+Yeah.
+
+01:04:42.000 --> 01:04:49.000
+A social network used to be for humans, now they are for agents. So I wonder whether you can see a future, near future, the, uh, robots actually wearing MR devices so that your app actually could help robots? Like, can you comment on that?
+
+01:04:49.000 --> 01:04:51.000
+Oh. Yeah.
+
+01:04:51.000 --> 01:04:58.000
+Start just… just follow my thought and develop. This is not a fully developed thought at all. I just want to prompt you.
+
+01:04:58.000 --> 01:05:01.000
+wanted to think about. So now, now…
+
+01:05:01.000 --> 01:05:02.000
+I think that would be. Yeah.
+
+01:05:02.000 --> 01:05:07.000
+Yeah, so you're not… you're not in front of the ChatGPT right now, so I could… whatever you say right now is genuine, so I want to hear, but…
+
+01:05:07.000 --> 01:05:10.000
+given my prompt, can you complete my prompt?
+
+01:05:10.000 --> 01:05:11.000
+the future.
+
+01:05:11.000 --> 01:05:21.000
+I just complete… complete my prompt, the imagine the future when the robot wearing your MR devices, what does it mean?
+
+01:05:21.000 --> 01:05:33.000
+Actually… I think you mentioned a really interesting point is, can we transfer our human sensitive to those generative AI agents?
+
+01:05:33.000 --> 01:05:54.000
+And I think that probably… Leoma, gonna do that? So I think it's like because now the language model talking to each other. They still like a really cold machines talking to each other. If we introduce some humanity into.
+
+01:05:54.000 --> 01:06:10.000
+that community, what will become and what kind of new scenario will show up. And actually, talking about agentic AI, actually, this is really interesting, because when I talking about editing reality, I use negotiate.
+
+01:06:10.000 --> 01:06:19.000
+And Alan was making a bum, like, what doesn't that mean, negotiate should be like a bargain chip or something. But, you know.
+
+01:06:19.000 --> 01:06:36.000
+currently generate agent AI cost token. So the thing is like, when I trying to create something, and that's bargain chip is the token is really vivid in there. And yeah, back to your question, I think.
+
+01:06:36.000 --> 01:06:50.000
+I think we can provide agent more sense sensor or the other perspective. But it's more like from human perspective. And I think that would be really interesting. Yeah.
+
+01:06:50.000 --> 01:06:51.000
+Okay, um, I'll pass on the next committee member.
+
+01:06:51.000 --> 01:06:56.000
+Thank you.
+
+01:06:56.000 --> 01:06:59.000
+Yeah. Amy.
+
+01:06:59.000 --> 01:07:13.000
+Yes, so thank you, Sweeby for your framework. I really think it's comprehensive from virtual content generation, behavioral.
+
+01:07:13.000 --> 01:07:21.000
+generation, and then the perceptual. So that was a really nice… um, story to tell, uh, for those elements.
+
+01:07:21.000 --> 01:07:25.000
+My question… well, I have a couple questions, but one of them.
+
+01:07:25.000 --> 01:07:37.000
+is related to your research question where you ask.
+
+01:07:37.000 --> 01:07:38.000
+Mm-hmm.
+
+01:07:38.000 --> 01:07:47.000
+Um, how do users engage in co-creative processes with generative MR systems? And specifically how these systems scaffold iteration, exploration, and refinement. And I think you did a great job of kind of demonstrating that through these three systems.
+
+01:07:47.000 --> 01:07:59.000
+My question is, did you notice in any of your evaluations, potentially, if there was any moments where the interaction or the prompt.
+
+01:07:59.000 --> 01:08:08.000
+uh, engineering, or how people were interacting with those systems hindered that co-creative process.
+
+01:08:08.000 --> 01:08:14.000
+Sorry, what's in Germany?
+
+01:08:14.000 --> 01:08:15.000
+obstruct. Yes. Oh.
+
+01:08:15.000 --> 01:08:21.000
+Oh, sorry. Maybe negatively impacted. So you gave actually one example when you feel angry, sometimes you coding with AI.
+
+01:08:21.000 --> 01:08:28.000
+Yes.
+
+01:08:28.000 --> 01:08:29.000
+Mm-hmm.
+
+01:08:29.000 --> 01:08:33.000
+Um, when people were working with your systems, did you notice anything, like, uh, like, for example, maybe in the perceptual transformation, it was a little too much, and it became distracting, or something like that. Was there any point where maybe this was not good for.
+
+01:08:33.000 --> 01:08:39.000
+Exactly.
+
+01:08:39.000 --> 01:08:41.000
+creative processes.
+
+01:08:41.000 --> 01:08:50.000
+Yes. So one of the things. Okay, so I think hypervision, the disrupt the the flicking around problem and the glitching.
+
+01:08:50.000 --> 01:09:07.000
+Uh, again, I think people's kind of used to it. There's a couple participants actually complaining about that, for sure, and they say, can I save it? Save the current transformation, and I can reference later? I did not do that.
+
+01:09:07.000 --> 01:09:23.000
+That function, because I'm lazy. But, however, actually, you mentioned one thing about the disturb. It's happening in the editing reality, because couple function is taking.
+
+01:09:23.000 --> 01:09:41.000
+So long. For example, like retexturing took, like, 10 minutes to retexturing, and people just wearing the headset and sitting there and waiting everything. And the other thing is like there's a couple other function is not doing that well.
+
+01:09:41.000 --> 01:09:56.000
+Uh, in that paper, actually, I mentioned about the waiting time, and actually I I claim that the waiting mechanism is a really part important in the generated system.
+
+01:09:56.000 --> 01:10:13.000
+Because no matter what, I mean, yes, one day, good graphic card can fix that, uh, one day, but it still have the waiting process. So, our suggestion in that certain point is, like, uh, you can have a preview image.
+
+01:10:13.000 --> 01:10:43.000
+Or some visual loading image to kind of let people know, oh, the system's still working, and then you don't have to wait for 10 minutes, you can work on different pipeline and different things. So, again, I think… System should suggest that if there's a waiting or there's a delay system should suggest that, okay, you can move on to the other task, something like that, yeah.
+
+01:10:43.000 --> 01:10:44.000
+Mm-hmm.
+
+01:10:44.000 --> 01:11:11.000
+Okay, thank you. And then so this… This refers to one of your other research questions, where you talk about what interaction modalities best support these types of processes, and, um… Some of what I could gather is not necessarily that you found what interaction modalities best support, but, you know, what's feasible in this space? It seems to me that that's what you found. Um…
+
+01:11:11.000 --> 01:11:12.000
+Mm-hmm.
+
+01:11:12.000 --> 01:11:19.000
+given that, um, and this kind of ties into maybe what Daniel was talking about a little bit.
+
+01:11:19.000 --> 01:11:30.000
+in that you're in the immersive environment, whether that's in the VR system or in the air mixed reality system.
+
+01:11:30.000 --> 01:11:38.000
+What, um…
+
+01:11:38.000 --> 01:11:46.000
+We can hear you.
+
+01:11:46.000 --> 01:11:47.000
+It's okay.
+
+01:11:47.000 --> 01:12:03.000
+Yeah, I paused for a second. Sorry, sweet. I muted myself. So I guess what I'm getting at is when you're in the mixed reality situation or system, um.
+
+01:12:03.000 --> 01:12:04.000
+Did you mute?
+
+01:12:04.000 --> 01:12:17.000
+When we're thinking about interaction modalities and, you know, you looked at some gesturing where you were sketching, you looked at some.
+
+01:12:17.000 --> 01:12:18.000
+Mm-hmm.
+
+01:12:18.000 --> 01:12:33.000
+language models of prompt-based. What would you redesign going forward in the interaction modalities that could better provide that co… collaboration with the AI agent that maybe is more situated for.
+
+01:12:33.000 --> 01:12:36.000
+Mm-hmm.
+
+01:12:36.000 --> 01:12:41.000
+text-based systems or web-based systems, and maybe not necessarily XR.
+
+01:12:41.000 --> 01:13:09.000
+Yeah. So I feel like that's inquire more. So I think that's two things. One is we have to think, um, what kind of scenario we have to build, and what kind of users that they are more nature to do the prompting. The example I just mentioned is, like, if you are a musician, then you should use your instrument or your music.
+
+01:13:09.000 --> 01:13:28.000
+to do the prompting. And if that's the case, then the whole prompting scenario will follow in that modality to create. And the second thing is, I feel like currently prompt testing system is like, I say one line and you say something, something like that.
+
+01:13:28.000 --> 01:13:43.000
+But I… I think we should think more about, like, how do you make this process will be more fluent, and, like, let people stay in the action perception loop.
+
+01:13:43.000 --> 01:14:00.000
+That you can create something, and with that frame, then you can create other things on the top of it. But that really depends on different tasks, because if we are talking about music, music creation, then that will be… that won't be using, um, visual input.
+
+01:14:00.000 --> 01:14:16.000
+It could be like using sound or using vibration, something like that, but I think that's a really interesting question, and I… in one of the claims in the paper is, I say, we should keep user in that loop, and they can create more things.
+
+01:14:16.000 --> 01:14:23.000
+Yeah, so system should invite them to talk to the system, to interact more. Yep.
+
+01:14:23.000 --> 01:14:24.000
+Okay, thank you.
+
+01:14:24.000 --> 01:14:35.000
+Mm-hmm. So that's more on these Xr side. What about the AI algorithm side? What? What will you?
+
+01:14:35.000 --> 01:14:47.000
+potentially recommend, um, changes to, like, let's say the large language models, or how people are modeling these algorithms to better support XR interaction with.
+
+01:14:47.000 --> 01:14:48.000
+These agents.
+
+01:14:48.000 --> 01:14:59.000
+Yeah. Yes. Honestly saying, because a lot of this project is building like last year or 2 years ago.
+
+01:14:59.000 --> 01:15:23.000
+Uh, currently, agentic AI come out and actually, I mean, a dream proto should apply to the agentic AI, and I haven't tried it to see what gonna improve with agentic AI. So, uh, but again, I think there's a there's a misunderstanding, or I… Because I personally, I haven't really heavily tried agentic AI things, but…
+
+01:15:23.000 --> 01:15:38.000
+It's supposedly can have a better, better memory and better structure when you're trying to coding or making the scenes planning or other things. So that's probably the next.
+
+01:15:38.000 --> 01:15:53.000
+step, I will try not just only using API call to ChatGPT or Gemini and try on how can we set up a small agentic AI and to do this the specific.
+
+01:15:53.000 --> 01:15:58.000
+task. Yeah. Thank you.
+
+01:15:58.000 --> 01:16:03.000
+Okay, thank you. And I pass the baton.
+
+01:16:03.000 --> 01:16:13.000
+Yeah. So where is the bike? You can. Oh, so should I mute it?
+
+01:16:13.000 --> 01:16:24.000
+We can hear you.
+
+01:16:24.000 --> 01:16:34.000
+Alright, now I turn on but that's going slowly, slowly out.
+
+01:16:34.000 --> 01:16:45.000
+AI cannot help us. Yeah. Okay, cool. I push it.
+
+01:16:45.000 --> 01:16:52.000
+So the first of all, a couple of comments on the documents. And I guess it's pretty.
+
+01:16:52.000 --> 01:17:14.000
+improve from the proposal is. Yeah. The on the section 4. Yeah. Section 4. Yeah. Yeah, I also don't really have any kind of screenshot for the figures, or it's.
+
+01:17:14.000 --> 01:17:26.000
+pretty fair. Yes. Even though I was going to spend a lot of time on kind of, you know, iterating it. Yeah. Why do you follow the proposed system as.
+
+01:17:26.000 --> 01:17:45.000
+Because, okay, so the 1st thing is, yeah, you know what happened to that. So I think we have a lot of struggling in that project, and actually, originally I want to make I want to finish up and do a user study. But.
+
+01:17:45.000 --> 01:17:58.000
+Yeah. It's just not there. Yes, yes. I know I can write a report. Yes. Yeah. So you can also do another one.
+
+01:17:58.000 --> 01:18:06.000
+So, okay, okay. Yeah, you can do that. Okay.
+
+01:18:06.000 --> 01:18:20.000
+Yes. My comment also in the in the slide, you had so many some of the demo. Yes, that it's also not showing the document. So yeah, okay. I can put that back.
+
+01:18:20.000 --> 01:18:36.000
+Thank you. I just have a couple of questions regarding pulmonology. Yeah. So is that this is a partner tool. Partner, yes, yes. Partner to a tool.
+
+01:18:36.000 --> 01:18:42.000
+But what? How? How do you define? What's the difference between that?
+
+01:18:42.000 --> 01:18:58.000
+Specifically for Yes. I feel like we. So the the claim I want try to say probably not saying that well in the presentation or document is like I don't want just trying.
+
+01:18:58.000 --> 01:19:13.000
+treat generative AI model as a tool. And it's something we can interact with and discuss with. So I think that's kind of dynamic. It's a partner relationship. It's like it can give me the feedback.
+
+01:19:13.000 --> 01:19:19.000
+or it can help me to build something. It's not just, like, I input a.
+
+01:19:19.000 --> 01:19:34.000
+Bunch of number, and you give me the output. So that's the partnership, I think. Think about the essence of differentiating between partners. Yeah. I feel like is the interaction.
+
+01:19:34.000 --> 01:19:49.000
+Yeah, interaction and also the randomness that AI model provide, because I think that's important, because if without randomness or the the not consistent generation, then AI model just.
+
+01:19:49.000 --> 01:20:04.000
+a formula, like, oh, I put… I change minus 2, and you give me minus a something like that. But you can see how we interact with AI model is like it can it can have a little bit randomness and a little bit.
+
+01:20:04.000 --> 01:20:18.000
+Unpredictable between our conversations, yeah. Do you call, for example, Sora is a partner? Sora.
+
+01:20:18.000 --> 01:20:32.000
+I was as a partner because because there's one thing I keeping saying is a negotiation, because the generation result is not totally, how do you say? Sometimes generation result is not. We want.
+
+01:20:32.000 --> 01:20:50.000
+And every time even I try to draw the graph in the presentation, I send it to AI and just missing some line, and you're keeping asking. Then how I did it is like, then you just give me the frame, and I put those.
+
+01:20:50.000 --> 01:21:11.000
+into… in Figma. So… so I think that's the part of the negotiation happens. Yeah, and you cannot negotiate with a system, because systems say what it is just like that. And the second question is in the title. Yeah. You said AI generated user experience. Yes.
+
+01:21:11.000 --> 01:21:21.000
+But… But editing reality for or in proto. I did.
+
+01:21:21.000 --> 01:21:36.000
+But what do you mean by AI generated user experience? Because what I feel like, okay, we can change. Okay.
+
+01:21:36.000 --> 01:21:56.000
+So, the thing, yeah, become… more become confessed. So what I feel is like the interaction, or the generative asset is a part of a user experience. That's how I how I think about that. So why I so I will say the whole.
+
+01:21:56.000 --> 01:22:05.000
+Even just asset or just interaction, because in the dream portal, actually, I mentioned, like, the user experience is not just only.
+
+01:22:05.000 --> 01:22:20.000
+Upjet is on… is including the interaction. So this forward to user experience. That's why I choose the topic and Chat Gpt help a little bit.
+
+01:22:20.000 --> 01:22:31.000
+Okay. Yeah. I'm not sure I want to ask the story question. Yeah, you can ask what is this using for?
+
+01:22:31.000 --> 01:22:49.000
+I feel like you're kind of making inventing a new media. Yeah. And we don't have an epicasso yet. So for example, hard to define, I mean, hard to imagine, but you are making the printing press. Yeah. And it's hard to imagine like what Shakespeare writes.
+
+01:22:49.000 --> 01:23:04.000
+Oh, it's… it's hard to predict what is going to use for, who it's going to use for. But still, I'm kind of thinking about in your ideal situation. Yeah.
+
+01:23:04.000 --> 01:23:20.000
+Why do you envision the future of? Make it. Okay. So one of the things, for example, like.
+
+01:23:20.000 --> 01:23:27.000
+I mean, I kind of mentioned about our last project of hypervision, because that's probably more futuristic.
+
+01:23:27.000 --> 01:23:46.000
+upon the 3 of that. I think at the end of paper, I actually mentioned, like, there's some future research question we can using this system to tackle on. For example, I can change people into different avatar or different scenes, and we can use that as a tool to.
+
+01:23:46.000 --> 01:23:58.000
+investigated, like, the trust between human and AI. That's one thing. The second thing is, like, we can try on like, for example, like perception research.
+
+01:23:58.000 --> 01:24:19.000
+Oh, sorry. Redirecting walking, I can change my corridor, like, change to the curve line, or something like that. If the model is stable enough, that's, like, two of the things. I try to reconnect back to the MR research question. Yeah, something like that.
+
+01:24:19.000 --> 01:24:37.000
+And also, like, different perspective, like I can change my cup to a rat or something like that, then you can have different sensation on this. Yeah. That question makes me want to I feel like is I tried to because, like, really.
+
+01:24:37.000 --> 01:24:52.000
+years ago I I kind of really interesting in doing like perception in mixed reality and Xr. So we mentioned about a lead away the robot dog that that project is actually doing the redirecting walking. So I I.
+
+01:24:52.000 --> 01:25:11.000
+Kind of interesting like how you're hacking the people sensation. So there's a one… tiny part of me want to do that. So I reconnect that project to that part. Yeah. You're not actually hacking people's sensation and perception.
+
+01:25:11.000 --> 01:25:27.000
+Good. Good call. Yes. You make the perception of the physical change. Yes, a lot of times they say yeah.
+
+01:25:27.000 --> 01:25:35.000
+editing reality and changing the physical world. No, they're still there.
+
+01:25:35.000 --> 01:25:48.000
+Yeah, trip it. No, don't make them. Yeah, I think that that's probably why I do.
+
+01:25:48.000 --> 01:26:05.000
+generated reality. Oh, but I put your. Okay. Because I think if I was using generating realities to overclick.
+
+01:26:05.000 --> 01:26:27.000
+Oh, okay. I'm changing the physical reality. No, you did not. Yeah. You're tricking people for leaving the physical reality change, but that's actually not there. Okay. And so actually, all the way you're doing you are hacking people's perceptions. Yeah.
+
+01:26:27.000 --> 01:26:36.000
+Yes, exactly. Yeah. Yes. And I was thinking about.
+
+01:26:36.000 --> 01:26:59.000
+Uh-huh. Ada.
+
+01:26:59.000 --> 01:27:12.000
+Okay. Thank you. Thank you so much. That's the community? Are we ready to have a close session?
+
+01:27:12.000 --> 01:27:17.000
+So I should stop the recording. No, no, no, I'm waiting for them to.
+
+01:27:17.000 --> 01:27:25.000
+Oh, you muted. Oh, wow. Can you hear me? Can you hear Alan?
+
+01:27:25.000 --> 01:27:35.000
+Yeah. If we are okay, then maybe we kick everybody out. Yeah. Do people have one question for TV?
+
+01:27:35.000 --> 01:27:45.000
+Last chance? You can ask later though. Oh, okay. Thank you.
+
+01:27:45.000 --> 01:27:48.000
+All right, stay here, or no, I should go out.
+
+01:27:48.000 --> 01:27:52.000
+Doesn't any other committee member wants Ruby to stay in the room?
+
+01:27:52.000 --> 01:27:56.000
+I'm not just committee only. I can start with Jeff. Okay, stop recording and stop recording. Oh, bless you.
+
+01:27:56.000 --> 01:28:05.000
+Thank you
+

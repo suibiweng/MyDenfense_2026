@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="720" viewBox="0 0 1280 720" role="img" aria-label="Recording placeholder">
+  <defs>
+    <linearGradient id="g" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0" stop-color="#0e71eb"/>
+      <stop offset="1" stop-color="#111827"/>
+    </linearGradient>
+  </defs>
+  <rect width="1280" height="720" fill="url(#g)"/>
+  <circle cx="640" cy="360" r="94" fill="rgba(255,255,255,.18)"/>
+  <path d="M615 305 L615 415 L710 360 Z" fill="white"/>
+  <text x="640" y="500" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="36" fill="white" font-weight="700">Recording Page</text>
+  <text x="640" y="548" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="22" fill="rgba(255,255,255,.78)">Paste your YouTube video ID in script.js</text>
+</svg>
