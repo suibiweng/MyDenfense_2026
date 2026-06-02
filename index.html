@@ -8,26 +8,9 @@
   <link rel="stylesheet" href="styles.css" />
 </head>
 <body>
-  <header class="topbar">
-    <a class="skip" href="#main">Skip to Main Content</a>
-    <div class="brand">
-      <div class="logo-mark">z</div>
-      <div>
-        <div class="brand-title">Video Conferencing</div>
-        <div class="brand-subtitle">Cloud Recording</div>
-      </div>
-    </div>
-    <nav class="nav-actions" aria-label="Page links">
-      <a href="#viewer">RECORDING</a>
-      <a href="#transcriptPanel">TRANSCRIPT</a>
-      <a href="#details">DETAILS</a>
-    </nav>
-  </header>
-
   <main id="main" class="page-shell">
     <section class="recording-header">
       <div>
-        <p class="eyebrow">Personal Meeting Recording</p>
         <h1 id="recordingTitle">Doctoral Dissertation Defense Recording</h1>
         <p class="meta" id="recordingMeta">Suibi Che-Chuan Weng · April 22, 2026 · YouTube video, transcript, and meeting chat</p>
       </div>
@@ -37,6 +20,10 @@
         <a id="downloadCaptions" class="button secondary" href="assets/captions.vtt" download>Download captions</a>
         <a id="downloadChat" class="button secondary" href="assets/chat.txt" download>Download chat</a>
       </div>
+    </section>
+
+    <section class="summary-block">
+      <p>This was Suibi's doctoral dissertation defense presentation titled "Generating Your Reality: Advancing the Design of AI-Generated User Experience in Mixed Reality." Suibi presented three main projects that demonstrated how generative AI can expand beyond creating static assets in mixed reality toward interactive collaboration, behavior authoring, and perceptual transformation. The first project, Editing Reality, focused on real-time editing of the physical world through AI and multimodal interaction, with eight core capabilities: generate, iterate, reconstruct, retexture, sketch-based modeling, erase, anchor, and collaboration. The second project, DreamPortal, explored how generative AI can support behavior authoring in mixed reality by generating not only 3D objects but also runtime behavior scripts that define how objects interact with users. The third project, Hypervision, introduced the concept of generative re-rendering by processing users' pass-through views through diffusion models and regenerating them for the headset. During the question-and-answer session, committee members discussed technical challenges including visual quality issues, interaction modalities, and the future potential of these systems, particularly regarding the balance between AI capabilities and human creativity in mixed reality applications.</p>
     </section>
 
     <section id="viewer" class="viewer-card" aria-label="Recording viewer">
@@ -85,29 +72,6 @@
           <p class="placeholder">Loading chat…</p>
         </div>
       </aside>
-    </section>
-
-    <section id="details" class="details-grid">
-      <article class="detail-card">
-        <h2>Recording Details</h2>
-        <dl>
-          <div><dt>Topic</dt><dd id="detailTopic">Doctoral Dissertation Defense</dd></div>
-          <div><dt>Date</dt><dd id="detailDate">April 22, 2026</dd></div>
-          <div><dt>Host</dt><dd id="detailHost">Suibi Che-Chuan Weng</dd></div>
-          <div><dt>Video</dt><dd>Embedded from YouTube. Recommended setting: <strong>Unlisted</strong>.</dd></div>
-          <div><dt>Files</dt><dd>Transcript, captions, and chat are hosted in this GitHub Pages folder.</dd></div>
-        </dl>
-      </article>
-      <article class="detail-card">
-        <h2>How to update</h2>
-        <ol>
-          <li>Upload the Zoom MP4 to YouTube.</li>
-          <li>Set visibility to <strong>Unlisted</strong> if you want a semi-private link.</li>
-          <li>Copy the YouTube video ID.</li>
-          <li>Open <code>script.js</code> and replace <code>PASTE_YOUR_YOUTUBE_VIDEO_ID_HERE</code>.</li>
-          <li>Push this folder to GitHub and enable GitHub Pages.</li>
-        </ol>
-      </article>
     </section>
   </main>
 

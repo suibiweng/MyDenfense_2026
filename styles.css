@@ -67,6 +67,9 @@ h1 { font-size: clamp(30px, 4vw, 44px); line-height: 1.05; margin: 0; letter-spa
 .button.secondary { background: #fff; color: var(--text); border-color: var(--line); }
 .button.secondary:hover { border-color: #c9cdd6; }
 
+.summary-block { background: #fff; border: 1px solid var(--line); border-radius: 16px; padding: 26px; margin-bottom: 26px; line-height: 1.65; color: var(--text); }
+.summary-block p { margin: 0; font-size: 15px; }
+
 .viewer-card { display: grid; grid-template-columns: minmax(0, 1fr) 390px; gap: 0; background: var(--card); border: 1px solid var(--line); border-radius: 20px; box-shadow: var(--shadow); overflow: hidden; }
 .player-column { min-width: 0; background: #15171e; }
 .video-frame { position: relative; background: var(--player); aspect-ratio: 16 / 9; display: grid; place-items: center; overflow: hidden; }
