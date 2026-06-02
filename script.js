@@ -30,9 +30,6 @@ function applyConfig() {
   document.title = pageConfig.title;
   $("#recordingTitle").textContent = pageConfig.title;
   $("#recordingMeta").textContent = pageConfig.meta;
-  $("#detailTopic").textContent = pageConfig.title.replace(" Recording", "");
-  $("#detailDate").textContent = pageConfig.date;
-  $("#detailHost").textContent = pageConfig.host;
   $("#downloadTranscript").href = pageConfig.transcript;
   $("#downloadCaptions").href = pageConfig.captions;
   $("#downloadChat").href = pageConfig.chat;
